@@ -1,0 +1,19 @@
+This code snippet is written in JavaScript. Here is a breakdown of what each line does:
+
+console.log("Namsta duniya");: This line logs the string "Namsta duniya" to the console. The console is a tool used by developers to output information while writing and debugging code.
+const accountId = 65123;: This line declares a constant variable accountId and assigns it the value 65123. A constant variable cannot be reassigned a new value once it has been initialized.
+let accountEmail ="Sankhepsahoo@gmail.com\n";: This line declares a variable accountEmail using the let keyword and assigns it the string value "Sankhepsahoo@gmail.com\n". The \n represents a new line character.
+var accountPassword="12345";: This line declares a variable accountPassword using the var keyword and assigns it the value "12345". Variables declared with var have function scope.
+accountCity="Bangalore";: This line assigns the value "Bangalore" to a variable accountCity. In this case, accountCity is not declared using let, const, or var, which means it becomes a global variable.
+//accountId=2;: This line is a comment and it is used to write notes within the code that are not executed by the program. In this case, it is commented out which means it is not active code.
+console.log(accountId);: This line logs the value of the accountId variable to the console. It will output 65123, which is the value assigned to accountId.
+Overall, this code snippet initializes and assigns values to variables, logs messages to the console, and includes a commented-out line.
+
+
+console.log("Namsta duniya");
+const accountId = 65123;
+let accountEmail ="Sankhepsahoo@gmail.com\n";
+var accountPassword="12345";
+accountCity="Bangalore";
+//accountId=2;
+console.log(accountId);
